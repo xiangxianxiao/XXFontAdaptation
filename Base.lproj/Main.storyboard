@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5G-w2-Y2C">
+                                <rect key="frame" x="35" y="42" width="144" height="162.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="CwQ-vk-dFK"/>
+                                    <constraint firstAttribute="height" constant="201" id="MWs-ej-Wm7"/>
+                                    <constraint firstAttribute="width" constant="162" id="liA-Pl-HGv"/>
+                                </constraints>
+                                <string key="text">your fate is in your own hands. Either you control life, or life control you, your attitude determines you are a horse or rider.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="MWs-ej-Wm7"/>
+                                        <exclude reference="liA-Pl-HGv"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkh-P9-pWQ">
+                                <rect key="frame" x="16" y="224" width="183" height="105"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="183" id="uBc-pL-xss"/>
+                                    <constraint firstAttribute="height" constant="105" id="uXJ-kk-0L3"/>
+                                </constraints>
+                                <state key="normal" title="Knowledge, ideas, fantasy"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUx-an-glG">
+                                <rect key="frame" x="212" y="215" width="143" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="143" id="evk-sb-eCN"/>
+                                    <constraint firstAttribute="height" constant="63" id="uxk-hr-p3y"/>
+                                </constraints>
+                                <state key="normal" title="知识、思想、幻想"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="命运掌握在自己手中。要么你驾驭生命，要么生命驾驭你，你的心态决定你是坐骑还是骑手。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5c-GN-0hy">
+                                <rect key="frame" x="223" y="42" width="137" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="j2a-8h-oG5"/>
+                                    <constraint firstAttribute="width" constant="153" id="rXS-eZ-XMG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="rXS-eZ-XMG"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="A5c-GN-0hy" firstAttribute="leading" secondItem="A5G-w2-Y2C" secondAttribute="trailing" constant="44" id="5qt-ma-USG"/>
+                            <constraint firstItem="A5G-w2-Y2C" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="5uz-S4-S6j"/>
+                            <constraint firstItem="vUx-an-glG" firstAttribute="leading" secondItem="Pkh-P9-pWQ" secondAttribute="trailing" constant="13" id="QAd-57-I10"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vUx-an-glG" secondAttribute="bottom" constant="289" id="TPN-gO-HpB"/>
+                            <constraint firstItem="A5G-w2-Y2C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="35" id="TeO-uI-Xxp"/>
+                            <constraint firstItem="Pkh-P9-pWQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Xy7-Zf-O9o"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Pkh-P9-pWQ" secondAttribute="bottom" constant="268" id="cz4-Pk-A4b"/>
+                            <constraint firstItem="A5c-GN-0hy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="dQH-2d-vx1"/>
+                            <constraint firstAttribute="trailing" secondItem="vUx-an-glG" secondAttribute="trailing" constant="20" id="mWL-Y7-XBh"/>
+                            <constraint firstItem="Pkh-P9-pWQ" firstAttribute="top" secondItem="A5G-w2-Y2C" secondAttribute="bottom" constant="20" id="rJn-bx-vxf"/>
+                            <constraint firstItem="vUx-an-glG" firstAttribute="top" secondItem="A5c-GN-0hy" secondAttribute="bottom" constant="51" id="sIF-l9-4aB"/>
+                            <constraint firstItem="vUx-an-glG" firstAttribute="leading" secondItem="Pkh-P9-pWQ" secondAttribute="trailing" constant="13" id="u53-XF-AoK"/>
+                            <constraint firstAttribute="trailing" secondItem="A5c-GN-0hy" secondAttribute="trailing" constant="15" id="wyV-4N-r1D"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="QAd-57-I10"/>
+                                <exclude reference="u53-XF-AoK"/>
+                                <exclude reference="TPN-gO-HpB"/>
+                                <exclude reference="cz4-Pk-A4b"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286.5" y="468.5"/>
+        </scene>
+    </scenes>
+</document>
